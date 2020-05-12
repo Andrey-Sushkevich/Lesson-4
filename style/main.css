@@ -1,0 +1,322 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 71px;
+    background-color: black
+
+}
+h2{
+    color:#212121;
+    font-size: 36px;
+    font-family:'Raleway',sans-serif;
+    font-weight: 400;
+    text-align: center;
+   }
+h3{
+    font-size: 20px;
+    margin:29px 0;
+    font-weight: 700;
+    color: #333;
+}
+h4 {
+    font-weight: 400;
+    color: #86878B;
+    font-size: 14px;
+    text-align: center;
+}
+
+hr{
+    width: 64px;
+    height: 2px;
+    border:none;
+    background:orange;
+    margin:30px auto;
+}
+
+.Axit{
+    width: 100%;
+    height: 712px;  
+    background-color: yellow;
+}
+
+.Social{
+    width: 100%;
+    height: 106px;  
+    background-color: #FFFFFF;
+
+}
+.r{
+    width: 46px;
+    background-color: chocolate;
+}
+.Tab{
+    width: 100%;
+    height: 596px;  
+    background-color: green;
+}
+#square{
+    width: 112px;
+    height: 112px;
+    background-color:orange;
+}
+
+#square-1{
+        width: 112px;
+        height: 112px;
+        background-color:black;
+    }
+.Tab p{
+    font-size: 15px;
+    padding-left: 35px;
+    padding-top: 50px;
+    color: #FFFFFF;
+}
+.Awesome{ 
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height:593px;
+    text-align: center;
+    padding-top: 109px;
+}
+
+.Awesome main{
+    padding: 80px 0 107px;
+    font-size: 0;
+}
+
+.first{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 35px;
+    border: 2px solid orange;
+}
+
+.Awesome-block{
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
+}
+
+.Awesome p{
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'OpenSans','AdobeInvisFont','MyriadPro-Regular';
+}
+
+.ican--lamp{
+    background: url(../img/lamp.jpg) no-repeat center center;
+}
+.ican--keyboard{
+    background: url(../img/keyboard.jpg) no-repeat center center;   
+}
+.ican--lighting{
+    background: url(..//img/lighting.jpg) no-repeat center center;  
+}
+
+.Pricing{
+    width:100%;
+    height: 884px;
+    background-color:grey;
+    padding-top: 109px;
+}
+.basic{
+    background-color: blue;
+    width: 343px;
+    height: 462px;
+    display: inline-block;
+    margin: 115px 40px 0px 146px;
+}
+.professional{
+    background-color: lightblue;
+    width: 343px;
+    height: 497px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.enterprice{
+    background-color: burlywood;
+    width: 343px;
+    height: 462px;
+    display: inline-block;
+}
+
+.CUSTOMERS { 
+    
+    width: 100%;
+    height: 592px;
+    text-align: center;
+    padding-top: 109px;
+ }
+
+.icon{
+    width: 70px;
+    height: 70px;
+    margin-top: 49px;
+    border-radius: 35px;
+    }
+
+.block{
+    display: inline-block;
+    width: 273px;
+    height: 225px;
+    margin-right: 120px;
+     margin-top: 55px;
+}
+
+.block p{  
+    width: 248px;
+    height: 82px;
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 24px 13px 41px 12px;
+    text-align: left;
+    font-family: 'OpenSans','AdobeInvisFont','MyriadPro-Regular';
+}
+
+.icon--lamp{
+    background: url(../img/avatar.jpeg) ;
+}
+.icon--keyboard{
+    background: url(../img/avatar.jpeg) ;
+}
+.icon--lighting{
+    background: url(../img/avatar.jpeg) ;
+}
+
+.STYLISH{
+    width: 100%;
+    height: 322px;
+    text-align: center;
+    font-family:'Raleway','AdobeInvisFont','MyriadPro-Regular';
+    padding-top: 76px;
+    background-color: #000000;
+    background: url(../img/city.jpeg) no-repeat center center;
+    background-color:rgba(0,0,0,.3);
+}
+.STYLISH h2{
+    color: #FFFFFF;
+    font-family:'Raleway','AdobeInvisFont','MyriadPro-Regular';
+}
+.STYLISH hr{
+    width: 64px;
+    height: 2px;
+    background:white;
+    margin:26px auto;
+ 
+}
+
+.STYLISH h4 {
+    color: #86878B;
+    font-size: 16px;
+    opacity:0.8;    
+}
+
+.STYLISH button {
+    margin-top:33px;
+    width: 135px;
+    height:42px;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: transparent;
+    border:2px solid #FFFFFF; 
+}
+
+.Contact{
+    padding: 109px 0 0 0 ;
+    width: 100%;
+    height: 613px;
+    background-color:#FFFFFF;
+}
+
+.form{
+    width: 100%;
+    margin-top: 80px;
+    height: 193px;
+    margin-bottom: 30px;
+}
+
+.contact{
+    width: 527px;
+    height: 193px;
+    margin-left: 141px;
+    margin-right: 69px;
+    display: inline-block;
+}
+
+.contact--message{
+    width: 527px;
+    height: 196px;
+    margin-right:139px;
+    display: inline-block;
+}
+
+input[type="text"]  {
+    width: 527px;
+    height: 31px; 
+    margin-bottom: 30px;
+}
+
+input[type="text--1"]  {
+    width: 527px;
+    height: 31px; 
+    margin-bottom: 30px;
+}
+
+input[type="text--2"]  {
+    width: 527px;
+    height: 31px; 
+}
+
+input[type="text--3"]  {
+    width: 527px;
+    height: 31px;
+    margin-top: 80px;
+}
+
+.contact--message p{
+    font-size: 14px;
+    font-family:'OpenSans','AdobeInvisFont','MyriadPro-Regular';
+    color: #BDBDBD;
+}
+
+.Contact button {
+    width: 135px;
+    height:42px;
+    font-size: 15px;
+    margin-left: 626px;
+    background:orange;
+    border:2px solid orange;
+}
+
+footer{
+    width: 100%;
+    height: 101px;
+    background-color: black;
+    padding-top: 39px;
+    position: relative;
+}
+
+.social-network{
+    width: 317px;
+    height: 23px;
+    margin-left:541px;
+ }
+
+li{
+    display: inline-block ;
+    padding-right: 11px;
+}
+
+span{
+    opacity: 0.5;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 97px;
+}
