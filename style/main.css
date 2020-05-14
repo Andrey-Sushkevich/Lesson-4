@@ -3,12 +3,6 @@
     margin: 0;
 }
 
-header{
-    width: 100%;
-    height: 71px;
-    background-color: black
-
-}
 h2{
     color:#212121;
     font-size: 36px;
@@ -16,12 +10,14 @@ h2{
     font-weight: 400;
     text-align: center;
    }
+
 h3{
     font-size: 20px;
     margin:29px 0;
     font-weight: 700;
     color: #333;
 }
+
 h4 {
     font-weight: 400;
     color: #86878B;
@@ -37,44 +33,219 @@ hr{
     margin:30px auto;
 }
 
+header{
+    width: 100%;
+    background-color:black;
+}
+
+header span{
+    color: orange;
+}
+
+header h2{
+    padding: 21px 582px 23px 150px;
+    display: inline-block;
+    color:white;
+    font-size: 27px;
+}
+
+header p{
+    font-size: 14px;
+    display: inline-block;
+    color: #FFFFFF;
+    padding-right: 48px;  
+}
+
 .Axit{
     width: 100%;
-    height: 712px;  
-    background-color: yellow;
+    height: 641px;
+    background: url(../img/BIGCITY.jpeg) ;
+    
 }
+
+.WWW img{
+    margin-left:150px;
+}
+
+h1{
+color:#FFFFFF;
+font-family:'Raleway','AdobeInvisFont','MyriadPro-Regular';
+font-size : 36px;
+padding-left: 150px;
+padding-top : 33px;
+}
+
+.WWW{
+    display: inline-block; 
+    margin-right: 222px;
+   
+
+} 
+.WWW hr{
+    width: 64px;
+    height: 2px;
+    margin:36px 0 0 150px  ;
+    background-color: white;
+}
+.WWW p{
+    opacity:0.8;
+    color:#FFFFFF;
+    font-family:'Raleway-Light','AdobeInvisFont','MyriadPro-Regular';
+    font-size:16px;
+    padding-left: 150px;
+    padding-top: 30px;
+
+}
+.WWW button{
+    margin-top:44px;
+    width: 135px;
+    height:42px;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: transparent;
+    border:2px solid #FFFFFF;
+    margin-left: 150px;
+}
+
+
+.Registration{
+    background-color: peachpuff;
+    width: 360px;
+    height: 350px;
+    display: inline-block;
+    
+    margin-bottom: 140px;
+    
+    
+    
+}
+
+.Registration p{
+    font-family:'OpenSans-Bold','AdobeInvisFont','MyriadPro-Regular';
+    color:#333333;
+    font-size: 20px;
+  
+}
+
 
 .Social{
     width: 100%;
-    height: 106px;  
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
+}
+.Media{
+    width: 360px;
+    margin-left:152px;
+   
+    display: inline-block;
+    margin-right: 87px;
 
 }
-.r{
-    width: 46px;
-    background-color: chocolate;
+.Media p{
+    color:#86878B;
+    font-family:'OpenSans','AdobeInvisFont','MyriadPro-Regular';
+    font-size:14px;
+
 }
+.Media h4{
+    font-size: 20px;
+    color:#333333;
+    font-family:'OpenSans-Bold','AdobeInvisFont','MyriadPro-Regular';
+    padding:23px 0px 12px 0px;
+    text-align: left;
+}
+
+.Link{
+    
+    padding:30px auto 30px 87px;
+    display: inline-block;
+}
+
+.Link li{
+    display: inline-block ;
+    padding-right: 50px;
+}
+
 .Tab{
     width: 100%;
     height: 596px;  
-    background-color: green;
+    background-color:#F5F5F5;
 }
+
+.kvadrat{
+    width: 112px;
+    height: 336px;
+    display: inline-block;
+    margin-right: 99px;
+    margin-top: 148px;
+}
+
 #square{
     width: 112px;
     height: 112px;
     background-color:orange;
+    border: 1px solid grey;
+    margin-left: 142px;
 }
 
 #square-1{
-        width: 112px;
-        height: 112px;
-        background-color:black;
-    }
-.Tab p{
+    width: 112px;
+    height: 112px;
+    background-color:black;
+    border: 1px solid grey;
+    margin-left: 142px;
+}
+
+abbr{
     font-size: 15px;
     padding-left: 35px;
     padding-top: 50px;
     color: #FFFFFF;
+    display: block;
 }
+
+.words{
+    width:344px;
+    height: 302px;
+    display: inline-block;
+    margin-right: 103px ;
+    margin-top: 156px;
+    margin-left: 99px;
+}
+
+.words h5{
+    font-family: 'OpenSans-Bold','AdobeInvisFont','MyriadPro-Regular';
+    font-size: 20px;
+    color: #000000;
+    text-align: left; 
+}
+
+.words p{
+    font-size:14px;
+    color: #86878B;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'OpenSans','AdobeInvisFont','MyriadPro-Regular';
+    padding-top: 50px; 
+}
+
+.words button{
+    width: 135px;
+    height:42px;
+    font-size: 15px;
+    margin-top: 50px;
+    background:orange;
+    border:2px solid orange; 
+    margin-right: 379px;
+}
+
+.Picture{
+    width: 320px;
+    height: 253px;
+    display: inline-block;
+    margin-top: 172px;
+  
+}
+
 .Awesome{ 
     font-family: 'Open Sans', sans-serif;
     width: 100%;
@@ -122,32 +293,85 @@ hr{
 .Pricing{
     width:100%;
     height: 884px;
-    background-color:grey;
+    background-color:#F5F5F5;
     padding-top: 109px;
 }
+.Pricing h5{
+    font-size: 20px;
+    font-family: 'OpenSans-Bold','AdobeInvisFont','MyriadPro-Regular';
+    color:#FFFFFF;
+    padding:21px 112px 21px 111px;
+    border:1px solid white; 
+    background-color: black;
+    text-align: center;
+
+}
+.Pricing abbr{
+    font-family: 'Raleway-Bold','AdobeInvisFont','MyriadPro-Regular';
+    font-size: 35px;
+    border:1px solid white; 
+    padding: 30px 134px 10px 134px;
+    display: block;
+    background-color: black;
+    text-align: center;
+    color:#FFFFFF;
+}
+.Pricing span{
+    font-family: 'OpenSans-Semibold','AdobeInvisFont','MyriadPro-Regular';
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    padding: 17px 111px 22px 112px;
+    border:1px solid white;
+    background-color: black; 
+    display: block;
+    text-align: center;
+    
+}
+.Pricing ul{
+    display: block;
+    padding-left: 0px;
+    
+
+
+
+}
+.Pricing li{
+    border:1px solid white;
+    color:#86878B;
+    font-family: 'OpenSans-Bold','AdobeInvisFont','MyriadPro-Regular';
+    font-size: 14px;
+    margin: 14px auto 14px auto;
+    text-align: center;
+    
+}
 .basic{
-    background-color: blue;
+    
     width: 343px;
-    height: 462px;
     display: inline-block;
     margin: 115px 40px 0px 146px;
 }
+
 .professional{
-    background-color: lightblue;
+    
     width: 343px;
-    height: 497px;
     display: inline-block;
     margin-right: 40px;
 }
+.professional p{
+    background-color: orange;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding:13px 0 15px 0;
+}
 .enterprice{
-    background-color: burlywood;
+    
     width: 343px;
-    height: 462px;
     display: inline-block;
 }
 
 .CUSTOMERS { 
-    
     width: 100%;
     height: 592px;
     text-align: center;
@@ -164,9 +388,8 @@ hr{
 .block{
     display: inline-block;
     width: 273px;
-    height: 225px;
     margin-right: 120px;
-     margin-top: 55px;
+    margin-top: 55px;
 }
 
 .block p{  
@@ -200,16 +423,17 @@ hr{
     background: url(../img/city.jpeg) no-repeat center center;
     background-color:rgba(0,0,0,.3);
 }
+
 .STYLISH h2{
     color: #FFFFFF;
     font-family:'Raleway','AdobeInvisFont','MyriadPro-Regular';
 }
+
 .STYLISH hr{
     width: 64px;
     height: 2px;
     background:white;
     margin:26px auto;
- 
 }
 
 .STYLISH h4 {
@@ -244,7 +468,6 @@ hr{
 
 .contact{
     width: 527px;
-    height: 193px;
     margin-left: 141px;
     margin-right: 69px;
     display: inline-block;
@@ -304,19 +527,16 @@ footer{
 }
 
 .social-network{
-    width: 317px;
-    height: 23px;
-    margin-left:541px;
+   text-align: center;
  }
 
-li{
+footer li{
     display: inline-block ;
-    padding-right: 11px;
+    padding-right: 20px;
 }
 
-span{
+footer span{
     opacity: 0.5;
     font-size: 12px;
-    color: #FFFFFF;
-    padding-left: 97px;
+    color: #FFFFFF;   
 }
