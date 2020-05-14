@@ -58,44 +58,44 @@ header p{
 
 .Axit{
     width: 100%;
-    height: 641px;
-    background: url(../img/BIGCITY.jpeg) ;
-    
+    background: url(../img/BIGCITY.jpeg); 
 }
 
 .WWW img{
-    margin-left:150px;
+    margin-left: 150px;
 }
 
 h1{
-color:#FFFFFF;
-font-family:'Raleway','AdobeInvisFont','MyriadPro-Regular';
-font-size : 36px;
-padding-left: 150px;
-padding-top : 33px;
+    color:#FFFFFF;
+    font-family: 'Raleway','AdobeInvisFont','MyriadPro-Regular';
+    font-size : 36px;
+    padding-left: 150px;
+    margin-top : 33px;
+    font-weight: 400;
 }
 
 .WWW{
     display: inline-block; 
     margin-right: 222px;
-   
-
+    margin-top: 109px; 
 } 
+
 .WWW hr{
     width: 64px;
     height: 2px;
-    margin:36px 0 0 150px  ;
+    margin: 36px 0 0 150px  ;
     background-color: white;
 }
+
 .WWW p{
-    opacity:0.8;
+    opacity: 0.8;
     color:#FFFFFF;
     font-family:'Raleway-Light','AdobeInvisFont','MyriadPro-Regular';
-    font-size:16px;
-    padding-left: 150px;
-    padding-top: 30px;
-
+    font-size: 16px;
+    margin-left: 150px;
+    margin-top: 30px;
 }
+
 .WWW button{
     margin-top:44px;
     width: 135px;
@@ -107,45 +107,58 @@ padding-top : 33px;
     margin-left: 150px;
 }
 
-
 .Registration{
-    background-color: peachpuff;
+    background-color: white;
     width: 360px;
-    height: 350px;
     display: inline-block;
-    
     margin-bottom: 140px;
-    
-    
-    
+}
+
+.Registration input[type="text"]  {
+    width: 285px;
+    height: 31px; 
+    margin-bottom: 36px;
+    padding-left: 14px;
+    border:1px solid grey;
+    margin-left:45px;
 }
 
 .Registration p{
-    font-family:'OpenSans-Bold','AdobeInvisFont','MyriadPro-Regular';
-    color:#333333;
     font-size: 20px;
-  
+    padding: 18px 0 15px 0;
+    color: #333333;
+    margin-left:45px;
 }
 
+.Registration span{
+    color: orange;
+}
+
+.Registration button{
+    width: 360px;
+    height: 54px;
+    background-color: orange;
+    color: white;
+}
 
 .Social{
     width: 100%;
     background-color:#FFFFFF;
 }
+
 .Media{
     width: 360px;
     margin-left:152px;
-   
     display: inline-block;
     margin-right: 87px;
-
 }
+
 .Media p{
     color:#86878B;
     font-family:'OpenSans','AdobeInvisFont','MyriadPro-Regular';
     font-size:14px;
-
 }
+
 .Media h4{
     font-size: 20px;
     color:#333333;
@@ -155,17 +168,17 @@ padding-top : 33px;
 }
 
 .Link{
+    padding: 30px auto 30px 87px;
+    display: inline-block; 
     
-    padding:30px auto 30px 87px;
-    display: inline-block;
 }
 
 .Link li{
     display: inline-block ;
-    padding-right: 50px;
+    padding-right: 50px;   
 }
 
-.Tab{
+.Tab {
     width: 100%;
     height: 596px;  
     background-color:#F5F5F5;
@@ -194,7 +207,13 @@ padding-top : 33px;
     border: 1px solid grey;
     margin-left: 142px;
 }
-
+#square-2{
+    width: 112px;
+    height: 112px;
+    background-color:black;
+    border: 1px solid grey;
+    margin-left: 142px;
+}
 abbr{
     font-size: 15px;
     padding-left: 35px;
@@ -243,18 +262,16 @@ abbr{
     height: 253px;
     display: inline-block;
     margin-top: 172px;
-  
 }
 
 .Awesome{ 
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-    height:593px;
     text-align: center;
     padding-top: 109px;
 }
 
-.Awesome main{
+.Awesome-block{
     padding: 80px 0 107px;
     font-size: 0;
 }
@@ -270,7 +287,7 @@ abbr{
 .Awesome-block{
     display: inline-block;
     width: 350px;
-    margin: 0 16px;
+    margin: 0 16px;   
 }
 
 .Awesome p{
@@ -283,16 +300,17 @@ abbr{
 .ican--lamp{
     background: url(../img/lamp.jpg) no-repeat center center;
 }
+
 .ican--keyboard{
     background: url(../img/keyboard.jpg) no-repeat center center;   
 }
+
 .ican--lighting{
     background: url(..//img/lighting.jpg) no-repeat center center;  
 }
 
 .Pricing{
     width:100%;
-    height: 884px;
     background-color:#F5F5F5;
     padding-top: 109px;
 }
@@ -316,6 +334,7 @@ abbr{
     text-align: center;
     color:#FFFFFF;
 }
+
 .Pricing span{
     font-family: 'OpenSans-Semibold','AdobeInvisFont','MyriadPro-Regular';
     color: #FFFFFF;
@@ -326,38 +345,34 @@ abbr{
     background-color: black; 
     display: block;
     text-align: center;
-    
 }
+
 .Pricing ul{
     display: block;
     padding-left: 0px;
-    
-
-
-
 }
+
 .Pricing li{
     border:1px solid white;
     color:#86878B;
     font-family: 'OpenSans-Bold','AdobeInvisFont','MyriadPro-Regular';
     font-size: 14px;
     margin: 14px auto 14px auto;
-    text-align: center;
-    
+    text-align: center;  
 }
+
 .basic{
-    
     width: 343px;
     display: inline-block;
-    margin: 115px 40px 0px 146px;
+    margin: 115px 40px 95px 146px;
 }
 
 .professional{
-    
     width: 343px;
     display: inline-block;
     margin-right: 40px;
 }
+
 .professional p{
     background-color: orange;
     text-align: center;
@@ -365,15 +380,14 @@ abbr{
     font-size: 14px;
     padding:13px 0 15px 0;
 }
+
 .enterprice{
-    
     width: 343px;
     display: inline-block;
 }
 
 .CUSTOMERS { 
     width: 100%;
-    height: 592px;
     text-align: center;
     padding-top: 109px;
  }
@@ -383,6 +397,7 @@ abbr{
     height: 70px;
     margin-top: 49px;
     border-radius: 35px;
+    margin-bottom: 101px;
     }
 
 .block{
@@ -415,7 +430,7 @@ abbr{
 
 .STYLISH{
     width: 100%;
-    height: 322px;
+    
     text-align: center;
     font-family:'Raleway','AdobeInvisFont','MyriadPro-Regular';
     padding-top: 76px;
@@ -450,6 +465,7 @@ abbr{
     color: #FFFFFF;
     background: transparent;
     border:2px solid #FFFFFF; 
+    margin-bottom: 63px;
 }
 
 .Contact{
@@ -484,17 +500,6 @@ input[type="text"]  {
     width: 527px;
     height: 31px; 
     margin-bottom: 30px;
-}
-
-input[type="text--1"]  {
-    width: 527px;
-    height: 31px; 
-    margin-bottom: 30px;
-}
-
-input[type="text--2"]  {
-    width: 527px;
-    height: 31px; 
 }
 
 input[type="text--3"]  {
